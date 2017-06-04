@@ -10,7 +10,7 @@
     </div>
     <div class="content">
       <div class="editor">
-        <span>已经绑定了3位</span>
+        <span>已经绑定了{{lists.length}}位</span>
         <div class="editor-btn">
           <span class= "icon"></span>
           <span class = "text">编辑</span>

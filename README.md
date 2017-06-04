@@ -28,6 +28,8 @@ For detailed explanation on how things work, checkout the [guide](http://vuejs-t
 
 > 数据加载页面的渲染
 
+> 需要一点less的知识
+> 这是移动端上的项目，在pc显示可能效果不是很好
 
 ---
 - [ ] 页面的展示
