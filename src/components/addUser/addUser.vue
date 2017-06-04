@@ -22,6 +22,11 @@
 
 <script>
   export default {
+    props: {
+      lists: {
+        type: Array
+      }
+    },
     data() {
       return {
         showFlag: false,
@@ -37,7 +42,15 @@
       },
       applyRapair() {
         if (this.name === '') return;
-        console.log(this.name);
+        // console.log(this.lists);
+        let addName = {
+          name: this.name,
+          telephone: '12345',
+          adr: '即可立即离开'
+        };
+        this.lists.push(addName);
+        // console.log(this.name);
+        this.showFlag = false;
       }
     }
   };

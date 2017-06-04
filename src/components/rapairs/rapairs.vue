@@ -33,10 +33,10 @@
         </li>
       </ul>
     </div>
-    <div class="foot-addUser" @click = "selectAdduser">
+    <div class="foot-addUser" @click = "selectAdduser" >
       增加用户信息
     </div>
-    <addUser ref="addUser"></addUser>
+    <addUser ref="addUser" :lists = "lists"></addUser>
   </div>
 </template>
 
